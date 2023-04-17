@@ -2,8 +2,6 @@ version: '3.8'
 
 services:
   eventstore.db:
-#    ghcr.io/eventstore/eventstore:20.6.1-alpha.0.69-arm64v8
-#    docker pull
     image:  eventstore/eventstore:22.10.1-alpha-arm64v8
 #    image: eventstore/eventstore:21.2.0-buster-slim
     environment:
